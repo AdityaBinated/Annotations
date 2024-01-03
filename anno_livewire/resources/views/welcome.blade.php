@@ -15,6 +15,11 @@
        
     </head>
     <body>
-        @livewire('annotation')
+        <!--parent-component <script> livewire call-->
+        <!-- annotation alpine js livewire call-->
+
+        <!-- @livewire('parent-component')  -->
+        @livewire('annotation') 
+        ok
     </body>
 </html>
